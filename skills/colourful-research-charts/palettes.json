@@ -1,0 +1,151 @@
+{
+  "source": "Extracted from /Users/hannaxing/Desktop/PMGM7023 tutorial/colour/ (IMG_3884-3889 and IMG_3996-4004).",
+  "usage": "The renderer picks a palette at random when --palette is not given, which is the default for classroom work. Pass --palette KEY to force one. The first colour in the ramp is the strongest and is used for the first / reference series.",
+  "palettes": {
+    "blue-mist-mocha": {
+      "name": "蓝雾摩卡",
+      "ground": "#FFF7E8",
+      "text": "#2B2521",
+      "soft": "#F4E9DC",
+      "ramp": ["#69554C", "#9AACC8", "#CDE4F4", "#6D87AE"],
+      "note": "Current MA7 house style. The only palette to reach for when the chart must match the existing deck."
+    },
+    "sunset": {
+      "name": "暮橘霞粉",
+      "ground": "#F1E9DE",
+      "text": "#4B4540",
+      "soft": "#E3BEA0",
+      "ramp": ["#E3BEA0", "#E0C0C4", "#B6C6D2", "#B6AEC6"],
+      "note": "Warm, gender-neutral pastels. Good for paired comparisons."
+    },
+    "peach-mist": {
+      "name": "霁桃云岫",
+      "ground": "#F8F5F0",
+      "text": "#3E3833",
+      "soft": "#DDEDF4",
+      "ramp": ["#F6D1C8", "#DDEDF4", "#BFD0BE", "#E8E0D6"],
+      "note": "Very soft; best for small group counts."
+    },
+    "pear-breeze": {
+      "name": "金梨薄岚",
+      "ground": "#FFFDF4",
+      "text": "#3E3833",
+      "soft": "#F3E6A8",
+      "ramp": ["#F3E6A8", "#D2E8E3", "#B7CDE5", "#FFF6D8"],
+      "note": "Sunny and light. Use for positive findings."
+    },
+    "pine-ceramic": {
+      "name": "松烟月陶",
+      "ground": "#E9DFC9",
+      "text": "#2F2A22",
+      "soft": "#CBB79E",
+      "ramp": ["#8EA287", "#C7D2B2", "#CBB79E", "#E9DFC9"],
+      "note": "Earthy green and beige. Use for environmental or wellness data."
+    },
+    "berry-mist": {
+      "name": "紫莓潮雾",
+      "ground": "#F7F1F6",
+      "text": "#3A2F3A",
+      "soft": "#F0D6E7",
+      "ramp": ["#B68FB3", "#9ECFD1", "#D7F0EF", "#F0D6E7"],
+      "note": "Cool, gentle berry tones. Good for academic posters."
+    },
+    "twilight-gold": {
+      "name": "暮光紫金",
+      "ground": "#F3EEE6",
+      "text": "#2E1F3A",
+      "soft": "#D4B896",
+      "ramp": ["#3E2564", "#7B5E8E", "#B898A0", "#D4B896", "#E5C87B"],
+      "note": "Formal and elegant. The most paper-like of the warm set."
+    },
+    "sea-mist-coral": {
+      "name": "海雾粉橙",
+      "ground": "#F9F2EF",
+      "text": "#2A2A3A",
+      "soft": "#D49E8A",
+      "ramp": ["#1E3E6E", "#5A6E9E", "#9E8EAA", "#D49E8A", "#F0B878"],
+      "note": "High contrast warm and cool. Best when one group must stand out."
+    },
+    "contrast-cream-blue": {
+      "name": "撞色：奶油蓝",
+      "ground": "#F7F6F2",
+      "text": "#2B2F36",
+      "soft": "#E3EDF5",
+      "ramp": ["#8FB4D4", "#F2EFE9", "#C2D4E4"],
+      "note": "Clean two-tone; adapted from the paint-card image."
+    },
+    "contrast-blush-navy": {
+      "name": "撞色：柔光海军",
+      "ground": "#F5EDE8",
+      "text": "#1F2633",
+      "soft": "#EBD4D4",
+      "ramp": ["#2B3A55", "#EBD4D4", "#7A8BA8"],
+      "note": "Strong contrast for a keynote slide."
+    },
+
+    "slate-mauve": {
+      "name": "石板藕紫",
+      "ground": "#F6F3FA",
+      "text": "#2A2B3D",
+      "soft": "#DBC9ED",
+      "ramp": ["#4F587D", "#776B97", "#C68DC0", "#C2E0EE", "#DBC9ED"],
+      "note": "From a single-cell UMAP legend. Slate navy plus mauve; calm, scientific, reads well in print."
+    },
+    "journal-blue-ember": {
+      "name": "刊蓝焜橙",
+      "ground": "#FAF7F2",
+      "text": "#26303F",
+      "soft": "#F5CC7D",
+      "ramp": ["#5271AE", "#70ACDE", "#F5CC7D", "#FFA660", "#D85B55"],
+      "note": "A five-step cool-to-warm ramp from a marker-expression figure. Use for an ordered series or a colour scale, not for unrelated groups."
+    },
+    "amber-lilac": {
+      "name": "琥珀雪青",
+      "ground": "#FFFBF2",
+      "text": "#33263B",
+      "soft": "#FFE1B4",
+      "ramp": ["#583C78", "#E6822D", "#998CC9", "#FFBE6E", "#7EA0C8", "#CDC6E3", "#C0CDEB", "#FFE1B4"],
+      "note": "Eight colours alternating deep purple, amber and powder blue. The one to reach for when a chart genuinely needs many series."
+    },
+    "harbour-ochre": {
+      "name": "港湾赭青",
+      "ground": "#FBF8F1",
+      "text": "#243038",
+      "soft": "#F2D98E",
+      "ramp": ["#466F87", "#78B6C8", "#F2D98E", "#E48578", "#98AF1E"],
+      "note": "Slate blue, pale blue, sand, coral, olive. Crisp and slightly retro; good for grouped bars."
+    },
+    "indigo-blossom": {
+      "name": "靛蓝花信",
+      "ground": "#F8F6FB",
+      "text": "#2A2740",
+      "soft": "#E9B7D4",
+      "ramp": ["#33539E", "#A5678E", "#7FACD6", "#BFB8DA", "#E9B7D4"],
+      "note": "Deep indigo through lilac to blossom pink. Reads as a gradient; nice for line and area charts."
+    },
+    "lagoon-apricot": {
+      "name": "潟湖杏绿",
+      "ground": "#F7FBF7",
+      "text": "#254046",
+      "soft": "#F9E2AE",
+      "ramp": ["#86CBD0", "#FDC68D", "#A7D676", "#F9E2AE", "#A8E0E1"],
+      "note": "Teal, apricot, leaf green, sand. Fresh and bright without being loud."
+    },
+    "magenta-teal": {
+      "name": "品红松石",
+      "ground": "#FDF6F8",
+      "text": "#3A2331",
+      "soft": "#F3B3CD",
+      "ramp": ["#DC3972", "#32AEAE", "#EE709F", "#ABE5E8", "#F3B3CD"],
+      "note": "The boldest of the set. Magenta against teal, so two-series charts separate instantly."
+    },
+    "candy-pastel": {
+      "name": "糖果薄彩",
+      "ground": "#FBF9FA",
+      "text": "#3A3140",
+      "soft": "#F7DA72",
+      "ramp": ["#D5A4DC", "#75CCE8", "#F7DA72", "#EBBDBF", "#A5DEE7"],
+      "note": "Violet, sky, butter yellow, blush, aqua. The friendliest palette; good for a first lesson."
+    }
+  }
+}

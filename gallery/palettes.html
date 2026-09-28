@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>colourful-research-charts :: 18 palettes</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;padding:44px 26px 70px;background:#FFF7E8;color:#2B2521;
+       font-family:"Nunito","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:1240px;margin:0 auto}
+  header{border-bottom:3px solid #69554C;padding-bottom:20px;margin-bottom:28px}
+  h1{font-family:Georgia,serif;font-size:40px;margin:0 0 8px;color:#69554C;letter-spacing:-.01em}
+  header p{margin:0;color:#7A6E66;font-size:16.5px;max-width:800px}
+  .hint{margin-top:18px;background:#F4E9DC;border-radius:12px;padding:14px 18px;font-size:15px;color:#69554C}
+  .hint code{background:#fff;border-radius:6px;padding:2px 7px;font-size:13.5px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:26px}
+  .card{background:#fff;border-radius:18px;box-shadow:0 12px 30px rgba(43,37,33,.09);overflow:hidden}
+  .cbody{padding:18px 22px 12px}
+  h3{font-family:Georgia,serif;font-size:21px;margin:0 0 6px;color:#2B2521}
+  h3 small{font-family:"Nunito",sans-serif;font-size:14px;color:#7A6E66;font-weight:600;margin-left:8px}
+  .note{margin:0 0 13px;font-size:14px;color:#7A6E66;min-height:44px}
+  .ramp{display:flex;gap:6px;margin-bottom:12px}
+  .sw{flex:1;height:34px;border-radius:8px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.07)}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:#7A6E66}
+  .mt{display:inline-flex;align-items:center;gap:6px}
+  .mt i{width:12px;height:12px;border-radius:4px;display:inline-block;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1)}
+  iframe{width:100%;height:560px;border:0;display:block;background:#fff;border-top:1px solid #F0E7DA}
+  footer{margin-top:46px;padding:20px 24px;background:#F4E9DC;border-radius:14px;font-size:14.5px;color:#69554C}
+</style></head>
+<body><div class="wrap">
+  <header>
+    <h1>Eighteen palettes</h1>
+    <p>Every palette the renderer can use, each shown as its own colour ramp and applied to the same real chart. Leaving <code>--palette</code> out draws one of these at random, and that is the default.</p>
+    <div class="hint"><b>Force one:</b> add <code>--palette twilight-gold</code> to any command. <b>Repeat a draw:</b> add <code>--seed 42</code>. <b>List them in the terminal:</b> <code>render.py list</code>.</div>
+  </header>
+  <div class="grid">
+  <article class="card">
+    <div class="cbody">
+      <h3>blue-mist-mocha <small>蓝雾摩卡</small></h3>
+      <p class="note">Current MA7 house style. The only palette to reach for when the chart must match the existing deck.</p>
+      <div class="ramp"><span class="sw" style="background:#69554C" title="#69554C"></span><span class="sw" style="background:#9AACC8" title="#9AACC8"></span><span class="sw" style="background:#CDE4F4" title="#CDE4F4"></span><span class="sw" style="background:#6D87AE" title="#6D87AE"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FFF7E8"></i>ground #FFF7E8</span>
+        <span class="mt"><i style="background:#2B2521"></i>text #2B2521</span>
+        <span class="mt"><i style="background:#F4E9DC"></i>soft #F4E9DC</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/01.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>sunset <small>暮橘霞粉</small></h3>
+      <p class="note">Warm, gender-neutral pastels. Good for paired comparisons.</p>
+      <div class="ramp"><span class="sw" style="background:#E3BEA0" title="#E3BEA0"></span><span class="sw" style="background:#E0C0C4" title="#E0C0C4"></span><span class="sw" style="background:#B6C6D2" title="#B6C6D2"></span><span class="sw" style="background:#B6AEC6" title="#B6AEC6"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F1E9DE"></i>ground #F1E9DE</span>
+        <span class="mt"><i style="background:#4B4540"></i>text #4B4540</span>
+        <span class="mt"><i style="background:#E3BEA0"></i>soft #E3BEA0</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/02.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>peach-mist <small>霁桃云岫</small></h3>
+      <p class="note">Very soft; best for small group counts.</p>
+      <div class="ramp"><span class="sw" style="background:#F6D1C8" title="#F6D1C8"></span><span class="sw" style="background:#DDEDF4" title="#DDEDF4"></span><span class="sw" style="background:#BFD0BE" title="#BFD0BE"></span><span class="sw" style="background:#E8E0D6" title="#E8E0D6"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F8F5F0"></i>ground #F8F5F0</span>
+        <span class="mt"><i style="background:#3E3833"></i>text #3E3833</span>
+        <span class="mt"><i style="background:#DDEDF4"></i>soft #DDEDF4</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/03.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>pear-breeze <small>金梨薄岚</small></h3>
+      <p class="note">Sunny and light. Use for positive findings.</p>
+      <div class="ramp"><span class="sw" style="background:#F3E6A8" title="#F3E6A8"></span><span class="sw" style="background:#D2E8E3" title="#D2E8E3"></span><span class="sw" style="background:#B7CDE5" title="#B7CDE5"></span><span class="sw" style="background:#FFF6D8" title="#FFF6D8"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FFFDF4"></i>ground #FFFDF4</span>
+        <span class="mt"><i style="background:#3E3833"></i>text #3E3833</span>
+        <span class="mt"><i style="background:#F3E6A8"></i>soft #F3E6A8</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/04.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>pine-ceramic <small>松烟月陶</small></h3>
+      <p class="note">Earthy green and beige. Use for environmental or wellness data.</p>
+      <div class="ramp"><span class="sw" style="background:#8EA287" title="#8EA287"></span><span class="sw" style="background:#C7D2B2" title="#C7D2B2"></span><span class="sw" style="background:#CBB79E" title="#CBB79E"></span><span class="sw" style="background:#E9DFC9" title="#E9DFC9"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#E9DFC9"></i>ground #E9DFC9</span>
+        <span class="mt"><i style="background:#2F2A22"></i>text #2F2A22</span>
+        <span class="mt"><i style="background:#CBB79E"></i>soft #CBB79E</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/05.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>berry-mist <small>紫莓潮雾</small></h3>
+      <p class="note">Cool, gentle berry tones. Good for academic posters.</p>
+      <div class="ramp"><span class="sw" style="background:#B68FB3" title="#B68FB3"></span><span class="sw" style="background:#9ECFD1" title="#9ECFD1"></span><span class="sw" style="background:#D7F0EF" title="#D7F0EF"></span><span class="sw" style="background:#F0D6E7" title="#F0D6E7"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F7F1F6"></i>ground #F7F1F6</span>
+        <span class="mt"><i style="background:#3A2F3A"></i>text #3A2F3A</span>
+        <span class="mt"><i style="background:#F0D6E7"></i>soft #F0D6E7</span>
+        <span class="mt">4 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/06.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>twilight-gold <small>暮光紫金</small></h3>
+      <p class="note">Formal and elegant. The most paper-like of the warm set.</p>
+      <div class="ramp"><span class="sw" style="background:#3E2564" title="#3E2564"></span><span class="sw" style="background:#7B5E8E" title="#7B5E8E"></span><span class="sw" style="background:#B898A0" title="#B898A0"></span><span class="sw" style="background:#D4B896" title="#D4B896"></span><span class="sw" style="background:#E5C87B" title="#E5C87B"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F3EEE6"></i>ground #F3EEE6</span>
+        <span class="mt"><i style="background:#2E1F3A"></i>text #2E1F3A</span>
+        <span class="mt"><i style="background:#D4B896"></i>soft #D4B896</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/07.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>sea-mist-coral <small>海雾粉橙</small></h3>
+      <p class="note">High contrast warm and cool. Best when one group must stand out.</p>
+      <div class="ramp"><span class="sw" style="background:#1E3E6E" title="#1E3E6E"></span><span class="sw" style="background:#5A6E9E" title="#5A6E9E"></span><span class="sw" style="background:#9E8EAA" title="#9E8EAA"></span><span class="sw" style="background:#D49E8A" title="#D49E8A"></span><span class="sw" style="background:#F0B878" title="#F0B878"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F9F2EF"></i>ground #F9F2EF</span>
+        <span class="mt"><i style="background:#2A2A3A"></i>text #2A2A3A</span>
+        <span class="mt"><i style="background:#D49E8A"></i>soft #D49E8A</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/08.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>contrast-cream-blue <small>撞色：奶油蓝</small></h3>
+      <p class="note">Clean two-tone; adapted from the paint-card image.</p>
+      <div class="ramp"><span class="sw" style="background:#8FB4D4" title="#8FB4D4"></span><span class="sw" style="background:#F2EFE9" title="#F2EFE9"></span><span class="sw" style="background:#C2D4E4" title="#C2D4E4"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F7F6F2"></i>ground #F7F6F2</span>
+        <span class="mt"><i style="background:#2B2F36"></i>text #2B2F36</span>
+        <span class="mt"><i style="background:#E3EDF5"></i>soft #E3EDF5</span>
+        <span class="mt">3 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/09.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>contrast-blush-navy <small>撞色：柔光海军</small></h3>
+      <p class="note">Strong contrast for a keynote slide.</p>
+      <div class="ramp"><span class="sw" style="background:#2B3A55" title="#2B3A55"></span><span class="sw" style="background:#EBD4D4" title="#EBD4D4"></span><span class="sw" style="background:#7A8BA8" title="#7A8BA8"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F5EDE8"></i>ground #F5EDE8</span>
+        <span class="mt"><i style="background:#1F2633"></i>text #1F2633</span>
+        <span class="mt"><i style="background:#EBD4D4"></i>soft #EBD4D4</span>
+        <span class="mt">3 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/10.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>slate-mauve <small>石板藕紫</small></h3>
+      <p class="note">From a single-cell UMAP legend. Slate navy plus mauve; calm, scientific, reads well in print.</p>
+      <div class="ramp"><span class="sw" style="background:#4F587D" title="#4F587D"></span><span class="sw" style="background:#776B97" title="#776B97"></span><span class="sw" style="background:#C68DC0" title="#C68DC0"></span><span class="sw" style="background:#C2E0EE" title="#C2E0EE"></span><span class="sw" style="background:#DBC9ED" title="#DBC9ED"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F6F3FA"></i>ground #F6F3FA</span>
+        <span class="mt"><i style="background:#2A2B3D"></i>text #2A2B3D</span>
+        <span class="mt"><i style="background:#DBC9ED"></i>soft #DBC9ED</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/11.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>journal-blue-ember <small>刊蓝焜橙</small></h3>
+      <p class="note">A five-step cool-to-warm ramp from a marker-expression figure. Use for an ordered series or a colour scale, not for unrelated groups.</p>
+      <div class="ramp"><span class="sw" style="background:#5271AE" title="#5271AE"></span><span class="sw" style="background:#70ACDE" title="#70ACDE"></span><span class="sw" style="background:#F5CC7D" title="#F5CC7D"></span><span class="sw" style="background:#FFA660" title="#FFA660"></span><span class="sw" style="background:#D85B55" title="#D85B55"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FAF7F2"></i>ground #FAF7F2</span>
+        <span class="mt"><i style="background:#26303F"></i>text #26303F</span>
+        <span class="mt"><i style="background:#F5CC7D"></i>soft #F5CC7D</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/12.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>amber-lilac <small>琥珀雪青</small></h3>
+      <p class="note">Eight colours alternating deep purple, amber and powder blue. The one to reach for when a chart genuinely needs many series.</p>
+      <div class="ramp"><span class="sw" style="background:#583C78" title="#583C78"></span><span class="sw" style="background:#E6822D" title="#E6822D"></span><span class="sw" style="background:#998CC9" title="#998CC9"></span><span class="sw" style="background:#FFBE6E" title="#FFBE6E"></span><span class="sw" style="background:#7EA0C8" title="#7EA0C8"></span><span class="sw" style="background:#CDC6E3" title="#CDC6E3"></span><span class="sw" style="background:#C0CDEB" title="#C0CDEB"></span><span class="sw" style="background:#FFE1B4" title="#FFE1B4"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FFFBF2"></i>ground #FFFBF2</span>
+        <span class="mt"><i style="background:#33263B"></i>text #33263B</span>
+        <span class="mt"><i style="background:#FFE1B4"></i>soft #FFE1B4</span>
+        <span class="mt">8 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/13.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>harbour-ochre <small>港湾赭青</small></h3>
+      <p class="note">Slate blue, pale blue, sand, coral, olive. Crisp and slightly retro; good for grouped bars.</p>
+      <div class="ramp"><span class="sw" style="background:#466F87" title="#466F87"></span><span class="sw" style="background:#78B6C8" title="#78B6C8"></span><span class="sw" style="background:#F2D98E" title="#F2D98E"></span><span class="sw" style="background:#E48578" title="#E48578"></span><span class="sw" style="background:#98AF1E" title="#98AF1E"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FBF8F1"></i>ground #FBF8F1</span>
+        <span class="mt"><i style="background:#243038"></i>text #243038</span>
+        <span class="mt"><i style="background:#F2D98E"></i>soft #F2D98E</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/14.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>indigo-blossom <small>靛蓝花信</small></h3>
+      <p class="note">Deep indigo through lilac to blossom pink. Reads as a gradient; nice for line and area charts.</p>
+      <div class="ramp"><span class="sw" style="background:#33539E" title="#33539E"></span><span class="sw" style="background:#A5678E" title="#A5678E"></span><span class="sw" style="background:#7FACD6" title="#7FACD6"></span><span class="sw" style="background:#BFB8DA" title="#BFB8DA"></span><span class="sw" style="background:#E9B7D4" title="#E9B7D4"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F8F6FB"></i>ground #F8F6FB</span>
+        <span class="mt"><i style="background:#2A2740"></i>text #2A2740</span>
+        <span class="mt"><i style="background:#E9B7D4"></i>soft #E9B7D4</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/15.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>lagoon-apricot <small>潟湖杏绿</small></h3>
+      <p class="note">Teal, apricot, leaf green, sand. Fresh and bright without being loud.</p>
+      <div class="ramp"><span class="sw" style="background:#86CBD0" title="#86CBD0"></span><span class="sw" style="background:#FDC68D" title="#FDC68D"></span><span class="sw" style="background:#A7D676" title="#A7D676"></span><span class="sw" style="background:#F9E2AE" title="#F9E2AE"></span><span class="sw" style="background:#A8E0E1" title="#A8E0E1"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#F7FBF7"></i>ground #F7FBF7</span>
+        <span class="mt"><i style="background:#254046"></i>text #254046</span>
+        <span class="mt"><i style="background:#F9E2AE"></i>soft #F9E2AE</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/16.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>magenta-teal <small>品红松石</small></h3>
+      <p class="note">The boldest of the set. Magenta against teal, so two-series charts separate instantly.</p>
+      <div class="ramp"><span class="sw" style="background:#DC3972" title="#DC3972"></span><span class="sw" style="background:#32AEAE" title="#32AEAE"></span><span class="sw" style="background:#EE709F" title="#EE709F"></span><span class="sw" style="background:#ABE5E8" title="#ABE5E8"></span><span class="sw" style="background:#F3B3CD" title="#F3B3CD"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FDF6F8"></i>ground #FDF6F8</span>
+        <span class="mt"><i style="background:#3A2331"></i>text #3A2331</span>
+        <span class="mt"><i style="background:#F3B3CD"></i>soft #F3B3CD</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/17.html" loading="lazy"></iframe>
+  </article>
+  <article class="card">
+    <div class="cbody">
+      <h3>candy-pastel <small>糖果薄彩</small></h3>
+      <p class="note">Violet, sky, butter yellow, blush, aqua. The friendliest palette; good for a first lesson.</p>
+      <div class="ramp"><span class="sw" style="background:#D5A4DC" title="#D5A4DC"></span><span class="sw" style="background:#75CCE8" title="#75CCE8"></span><span class="sw" style="background:#F7DA72" title="#F7DA72"></span><span class="sw" style="background:#EBBDBF" title="#EBBDBF"></span><span class="sw" style="background:#A5DEE7" title="#A5DEE7"></span></div>
+      <div class="meta">
+        <span class="mt"><i style="background:#FBF9FA"></i>ground #FBF9FA</span>
+        <span class="mt"><i style="background:#3A3140"></i>text #3A3140</span>
+        <span class="mt"><i style="background:#F7DA72"></i>soft #F7DA72</span>
+        <span class="mt">5 colours</span>
+      </div>
+    </div>
+    <iframe src="palettes/18.html" loading="lazy"></iframe>
+  </article>
+  </div>
+  <footer>
+    Swatches and notes are read straight out of <b>palettes.json</b>, so this page always matches what the renderer actually uses. Every chart below was drawn by the renderer on <b>s7_data_anova.csv</b>: mean reading time 51.0, 37.3 and 20.7 minutes, n = 150 each.
+  </footer>
+</div></body></html>

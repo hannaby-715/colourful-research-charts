@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>colourful-research-charts · all 14 chart types</title>
+<style>
+  :root{
+    --cream:#FFF7E8; --sand:#F4E9DC; --mocha:#69554C; --blue:#9AACC8;
+    --lightblue:#CDE4F4; --text:#2B2521; --muted:#7A6E66; --accent:#6D87AE;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;padding:44px 26px 70px;background:var(--cream);color:var(--text);
+    font-family:"Nunito","Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.6;
+  }
+  .wrap{max-width:1180px;margin:0 auto}
+  header{border-bottom:3px solid var(--mocha);padding-bottom:20px;margin-bottom:34px}
+  h1{
+    font-family:Georgia,"Times New Roman",serif;font-size:40px;margin:0 0 8px;
+    letter-spacing:-.01em;color:var(--mocha);
+  }
+  header p{margin:0;color:var(--muted);font-size:16.5px;max-width:760px}
+  .strip{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0}
+  .chip{
+    background:#fff;border-radius:999px;padding:7px 15px;font-size:14px;font-weight:600;
+    color:var(--mocha);box-shadow:0 3px 10px rgba(43,37,33,.07)
+  }
+  .chip i{width:11px;height:11px;border-radius:50%;display:inline-block;margin-right:7px;vertical-align:-1px}
+  h2{
+    font-family:Georgia,serif;font-size:23px;color:var(--mocha);margin:46px 0 4px;
+    padding-left:14px;border-left:5px solid var(--blue);
+  }
+  h2 span{font-family:"Nunito",sans-serif;font-size:14.5px;color:var(--muted);font-weight:600;display:block;margin-top:4px}
+  .card{
+    background:#fff;border-radius:18px;box-shadow:0 12px 30px rgba(43,37,33,.09);
+    overflow:hidden;margin-top:16px
+  }
+  .card iframe{width:100%;height:900px;border:0;display:block;background:#fff}
+  .foot{
+    margin-top:52px;padding:20px 24px;background:var(--sand);border-radius:14px;
+    font-size:14.5px;color:var(--mocha)
+  }
+  .foot b{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Fourteen charts, one renderer</h1>
+    <p>Every chart below was produced by <b>render.py</b> on real data, with no chart library: pure Python standard library writing SVG, wrapped in a single self-contained HTML file. Palette and font are set per chart, or at random.</p>
+    <div class="strip">
+      <span class="chip"><i style="background:#69554C"></i>blue-mist-mocha</span>
+      <span class="chip"><i style="background:#E3BEA0"></i>sunset</span>
+      <span class="chip"><i style="background:#F6D1C8"></i>peach-mist</span>
+      <span class="chip"><i style="background:#F3E6A8"></i>pear-breeze</span>
+      <span class="chip"><i style="background:#8EA287"></i>pine-ceramic</span>
+      <span class="chip"><i style="background:#B68FB3"></i>berry-mist</span>
+      <span class="chip"><i style="background:#3E2564"></i>twilight-gold</span>
+      <span class="chip"><i style="background:#1E3E6E"></i>sea-mist-coral</span>
+      <span class="chip">+2 more</span>
+    </div>
+  </header>
+
+  <h2>01 · Bar chart <span>one value per category · sunset + warm-academic</span></h2>
+  <div class="card"><iframe src="types/01_bar.html" loading="lazy"></iframe></div>
+
+  <h2>02 · Grouped bar chart <span>two series side by side · pear-breeze + soft-rounded</span></h2>
+  <div class="card"><iframe src="types/02_grouped_bar.html" loading="lazy"></iframe></div>
+
+  <h2>03 · Line chart <span>a value along an ordered x · contrast-blush-navy + magazine</span></h2>
+  <div class="card"><iframe src="types/03_line.html" loading="lazy"></iframe></div>
+
+  <h2>04 · Area chart <span>the same, filled to the baseline · sea-mist-coral + modern-editorial</span></h2>
+  <div class="card"><iframe src="types/04_area.html" loading="lazy"></iframe></div>
+
+  <h2>05 · Histogram <span>the spread of one number · peach-mist + magazine</span></h2>
+  <div class="card"><iframe src="types/05_histogram.html" loading="lazy"></iframe></div>
+
+  <h2>06 · Scatter plot <span>two numbers against each other, coloured by group · berry-mist + data-journalism</span></h2>
+  <div class="card"><iframe src="types/06_scatter.html" loading="lazy"></iframe></div>
+
+  <h2>07 · Boxplot <span>spread within groups · pine-ceramic + modern-editorial</span></h2>
+  <div class="card"><iframe src="types/07_boxplot.html" loading="lazy"></iframe></div>
+
+  <h2>08 · Radar chart <span>a profile across four dimensions · twilight-gold + elegant-paper</span></h2>
+  <div class="card"><iframe src="types/08_radar.html" loading="lazy"></iframe></div>
+
+  <h2>09 · Pie chart <span>each category's share of a total · sunset + warm-academic</span></h2>
+  <div class="card"><iframe src="types/09_pie.html" loading="lazy"></iframe></div>
+
+  <h2>10 · Donut chart <span>the same, with the total in the middle · blue-mist-mocha + soft-rounded</span></h2>
+  <div class="card"><iframe src="types/10_donut.html" loading="lazy"></iframe></div>
+
+  <h2>11 · Heatmap <span>a value across two categories · berry-mist + elegant-paper</span></h2>
+  <div class="card"><iframe src="types/11_heatmap.html" loading="lazy"></iframe></div>
+
+  <h2>12 · Funnel chart <span>drop-off through ordered stages · sea-mist-coral + data-journalism</span></h2>
+  <div class="card"><iframe src="types/12_funnel.html" loading="lazy"></iframe></div>
+
+  <h2>13 · Flow chart <span>a process, step by step · blue-mist-mocha + soft-rounded</span></h2>
+  <div class="card"><iframe src="types/13_flowchart.html" loading="lazy"></iframe></div>
+
+  <h2>14 · Gantt chart <span>tasks against a timeline · twilight-gold + modern-editorial</span></h2>
+  <div class="card"><iframe src="types/14_gantt.html" loading="lazy"></iframe></div>
+
+  <div class="foot">
+    <b>How to reproduce any of these.</b> One command each, all listed in <b>SKILL.md</b>. The renderer is Python standard library only: no matplotlib, no Node, no Chrome, no API key, no network. Output is always a single HTML file.
+  </div>
+</div>
+</body>
+</html>

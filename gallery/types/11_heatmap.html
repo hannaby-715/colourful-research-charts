@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heatmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#F7F1F6;color:#3A2F3A;
+     font-family:'Open Sans', 'Source Sans 3', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:'Cormorant Garamond', Georgia, serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#3A2F3A}
+.head p{margin:0;font-size:15.5px;color:#898089}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#898089}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#F0D6E7}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#3A2F3A}
+.foot .note{margin:0;font-size:12.5px;color:#898089}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Heatmap</h1><p></p></div>
+<div class="body"><svg viewBox="0 0 940 260" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Open Sans', 'Source Sans 3', sans-serif"><text x="454.0" y="128.0" text-anchor="middle" font-size="16" font-weight="600" fill="#3A2F3A">Pre</text><text x="632.0" y="128.0" text-anchor="middle" font-size="16" font-weight="600" fill="#3A2F3A">Post</text><text x="351.0" y="172.0" text-anchor="end" dominant-baseline="middle" font-size="16" fill="#3A2F3A">Programme</text><rect x="369.0" y="146.0" width="170.0" height="52.0" rx="7" fill="#E4D0E0"/><text x="454.0" y="172.0" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#2B2521">7,706.5</text><rect x="547.0" y="146.0" width="170.0" height="52.0" rx="7" fill="#B68FB3"/><text x="632.0" y="172.0" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#2B2521">9,436.1</text><text x="351.0" y="232.0" text-anchor="end" dominant-baseline="middle" font-size="16" fill="#3A2F3A">Control</text><rect x="369.0" y="206.0" width="170.0" height="52.0" rx="7" fill="#EEDFEB"/><text x="454.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#2B2521">7293</text><rect x="547.0" y="206.0" width="170.0" height="52.0" rx="7" fill="#F8EDF4"/><text x="632.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#2B2521">6929</text><text x="543.0" y="240.0" text-anchor="middle" font-size="18" font-weight="600" fill="#3A2F3A">Wave</text><text x="34.0" y="202.0" transform="rotate(-90 34.0 202.0)" text-anchor="middle" font-size="18" font-weight="600" fill="#3A2F3A">Condition</text></svg></div>
+<div class="foot"><p class="cap">Figure. Heatmap of steps across 2 condition and 2 wave. Darker cells are higher.</p><p class="note">Data: heatmap_long.csv. 4 cells. Range 6929 to 9,436.1. Palette: berry-mist. Font: elegant-paper.</p></div>
+</div></body></html>

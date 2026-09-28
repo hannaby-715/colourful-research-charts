@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Funnel chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#F9F2EF;color:#2A2A3A;
+     font-family:'Source Sans 3', 'Open Sans', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:'Fraunces', Georgia, serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#2A2A3A}
+.head p{margin:0;font-size:15.5px;color:#817E86}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#817E86}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#D49E8A}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#2A2A3A}
+.foot .note{margin:0;font-size:12.5px;color:#817E86}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Funnel chart</h1><p></p></div>
+<div class="body"><svg viewBox="0 0 940 760" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Source Sans 3', 'Open Sans', sans-serif"><rect x="44" y="34" width="852" height="680" fill="#EBE4E2" rx="14"/><rect x="44.0" y="34.0" width="852.0" height="74.0" rx="9" fill="#1E3E6E"/><text x="64.0" y="71.0" dominant-baseline="middle" font-size="18" font-weight="600" fill="#FFFFFF">Opened the email</text><text x="876.0" y="71.0" text-anchor="end" dominant-baseline="middle" font-size="18" font-weight="700" fill="#FFFFFF">1240  (100.0%)</text><rect x="174.5" y="152.0" width="590.9" height="74.0" rx="9" fill="#5A6E9E"/><text x="194.5" y="189.0" dominant-baseline="middle" font-size="18" font-weight="600" fill="#FFFFFF">Clicked the link</text><text x="745.5" y="189.0" text-anchor="end" dominant-baseline="middle" font-size="18" font-weight="700" fill="#FFFFFF">860  (69.4%)</text><text x="470.0" y="136.0" text-anchor="middle" font-size="14.5" fill="#817E86">380 lost from the step above</text><rect x="294.1" y="270.0" width="351.8" height="74.0" rx="9" fill="#9E8EAA"/><text x="314.1" y="307.0" dominant-baseline="middle" font-size="18" font-weight="600" fill="#FFFFFF">Started the survey</text><text x="665.9" y="307.0" dominant-baseline="middle" font-size="18" font-weight="700" fill="#2A2A3A">512  (41.3%)</text><text x="470.0" y="254.0" text-anchor="middle" font-size="14.5" fill="#817E86">348 lost from the step above</text><rect x="360.8" y="388.0" width="218.5" height="74.0" rx="9" fill="#D49E8A"/><text x="380.8" y="425.0" dominant-baseline="middle" font-size="18" font-weight="600" fill="#2B2521">Completed it</text><text x="599.2" y="425.0" dominant-baseline="middle" font-size="18" font-weight="700" fill="#2A2A3A">318  (25.6%)</text><text x="470.0" y="372.0" text-anchor="middle" font-size="14.5" fill="#817E86">194 lost from the step above</text><rect x="421.6" y="506.0" width="96.9" height="74.0" rx="9" fill="#F0B878"/><text x="401.6" y="543.0" text-anchor="end" dominant-baseline="middle" font-size="18" font-weight="600" fill="#2A2A3A">Consented to follow-up</text><text x="538.4" y="543.0" dominant-baseline="middle" font-size="18" font-weight="700" fill="#2A2A3A">141  (11.4%)</text><text x="470.0" y="490.0" text-anchor="middle" font-size="14.5" fill="#817E86">177 lost from the step above</text></svg></div>
+<div class="foot"><p class="cap">Figure. Funnel chart of people across 5 stages. Bar width is proportional to the value.</p><p class="note">Data: funnel.csv. Total = 3071 across 5 stages. Palette: sea-mist-coral. Font: data-journalism.</p></div>
+</div></body></html>

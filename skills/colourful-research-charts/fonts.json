@@ -1,0 +1,42 @@
+{
+  "usage": "Pick exactly one pairing per chart. If the user says 随机 or does not specify, pass --font random, which picks uniformly from all six pairings below.",
+  "load_method": "Add the Google Fonts link in the HTML <head>, then use the CSS font-family values below. Always include the system fallback.",
+  "pairings": [
+    {
+      "name": "warm-academic",
+      "heading": "Georgia, 'Times New Roman', serif",
+      "body": "'Quicksand', 'Nunito', 'Segoe UI', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap"
+    },
+    {
+      "name": "soft-rounded",
+      "heading": "'Quicksand', 'Nunito', sans-serif",
+      "body": "'Nunito', 'Open Sans', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Nunito:wght@400;600;700&display=swap"
+    },
+    {
+      "name": "elegant-paper",
+      "heading": "'Cormorant Garamond', Georgia, serif",
+      "body": "'Open Sans', 'Source Sans 3', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap"
+    },
+    {
+      "name": "magazine",
+      "heading": "'Playfair Display', Georgia, serif",
+      "body": "'Lato', 'Open Sans', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap"
+    },
+    {
+      "name": "modern-editorial",
+      "heading": "'Zilla Slab', Georgia, serif",
+      "body": "'Inter', 'Roboto', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Inter:wght@400;600;700&display=swap"
+    },
+    {
+      "name": "data-journalism",
+      "heading": "'Fraunces', Georgia, serif",
+      "body": "'Source Sans 3', 'Open Sans', sans-serif",
+      "google_url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pie chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#F1E9DE;color:#4B4540;
+     font-family:'Quicksand', 'Nunito', 'Segoe UI', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:Georgia, 'Times New Roman', serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#4B4540}
+.head p{margin:0;font-size:15.5px;color:#918A82}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#918A82}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#E3BEA0}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#4B4540}
+.foot .note{margin:0;font-size:12.5px;color:#918A82}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Pie chart</h1><p></p></div>
+<div class="body"><div class="legend"><span><i style="background:#E3BEA0"></i>1  33.3%</span><span><i style="background:#E0C0C4"></i>0  33.3%</span><span><i style="background:#B6C6D2"></i>2  33.3%</span></div><svg viewBox="0 0 940 620" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Quicksand', 'Nunito', 'Segoe UI', sans-serif"><path d="M470.00 102.00 A214.00 214.00 0 0 1 655.33 423.00 L470.00 316.00 Z" fill="#E3BEA0" stroke="#FFFFFF" stroke-width="2"/><text x="588.6" y="244.5" text-anchor="middle" font-size="16.5" font-weight="700" fill="#2B2521">150</text><text x="588.6" y="261.5" text-anchor="middle" font-size="15" fill="#2B2521">33.3%</text><path d="M655.33 423.00 A214.00 214.00 0 0 1 284.67 423.00 L470.00 316.00 Z" fill="#E0C0C4" stroke="#FFFFFF" stroke-width="2"/><text x="470.0" y="450.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#2B2521">150</text><text x="470.0" y="467.0" text-anchor="middle" font-size="15" fill="#2B2521">33.3%</text><path d="M284.67 423.00 A214.00 214.00 0 0 1 470.00 102.00 L470.00 316.00 Z" fill="#B6C6D2" stroke="#FFFFFF" stroke-width="2"/><text x="351.4" y="244.5" text-anchor="middle" font-size="16.5" font-weight="700" fill="#2B2521">150</text><text x="351.4" y="261.5" text-anchor="middle" font-size="15" fill="#2B2521">33.3%</text></svg></div>
+<div class="foot"><p class="cap">Figure. Pie chart of records across new_webpage. Each slice shows its share of the total.</p><p class="note">Data: s7_data_anova.csv. Total = 450 across 3 categories. Palette: sunset. Font: warm-academic.</p></div>
+</div></body></html>

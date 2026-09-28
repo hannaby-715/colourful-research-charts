@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Donut chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#FFF7E8;color:#2B2521;
+     font-family:'Nunito', 'Open Sans', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:'Quicksand', 'Nunito', sans-serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#2B2521}
+.head p{margin:0;font-size:15.5px;color:#847D75}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#847D75}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#F4E9DC}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#2B2521}
+.foot .note{margin:0;font-size:12.5px;color:#847D75}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Donut chart</h1><p></p></div>
+<div class="body"><div class="legend"><span><i style="background:#69554C"></i>AI-assisted  33.3%</span><span><i style="background:#9AACC8"></i>Traditional  33.3%</span><span><i style="background:#CDE4F4"></i>E-learning  33.3%</span></div><svg viewBox="0 0 940 620" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Nunito', 'Open Sans', sans-serif"><path d="M470.00 102.00 A214.00 214.00 0 0 1 655.33 423.00 L571.93 374.85 A117.70 117.70 0 0 0 470.00 198.30 Z" fill="#69554C" stroke="#FFFFFF" stroke-width="2"/><text x="613.6" y="230.1" text-anchor="middle" font-size="16.5" font-weight="700" fill="#FFFFFF">50</text><text x="613.6" y="247.1" text-anchor="middle" font-size="15" fill="#FFFFFF">33.3%</text><path d="M655.33 423.00 A214.00 214.00 0 0 1 284.67 423.00 L368.07 374.85 A117.70 117.70 0 0 0 571.93 374.85 Z" fill="#9AACC8" stroke="#FFFFFF" stroke-width="2"/><text x="470.0" y="478.9" text-anchor="middle" font-size="16.5" font-weight="700" fill="#2B2521">50</text><text x="470.0" y="495.9" text-anchor="middle" font-size="15" fill="#2B2521">33.3%</text><path d="M284.67 423.00 A214.00 214.00 0 0 1 470.00 102.00 L470.00 198.30 A117.70 117.70 0 0 0 368.07 374.85 Z" fill="#CDE4F4" stroke="#FFFFFF" stroke-width="2"/><text x="326.4" y="230.1" text-anchor="middle" font-size="16.5" font-weight="700" fill="#2B2521">50</text><text x="326.4" y="247.1" text-anchor="middle" font-size="15" fill="#2B2521">33.3%</text><text x="470.0" y="314.0" text-anchor="middle" font-size="34" font-weight="700" fill="#2B2521">150</text><text x="470.0" y="342.0" text-anchor="middle" font-size="16" fill="#847D75">150 workers</text></svg></div>
+<div class="foot"><p class="cap">Figure. Donut chart of records across training_method. Each slice shows its share of the total.</p><p class="note">Data: s7_data_anova1.csv. Total = 150 across 3 categories. Palette: blue-mist-mocha. Font: soft-rounded.</p></div>
+</div></body></html>

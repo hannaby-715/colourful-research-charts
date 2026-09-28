@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Histogram</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#F8F5F0;color:#3E3833;
+     font-family:'Lato', 'Open Sans', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:'Playfair Display', Georgia, serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#3E3833}
+.head p{margin:0;font-size:15.5px;color:#8C8782}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#8C8782}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#DDEDF4}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#3E3833}
+.foot .note{margin:0;font-size:12.5px;color:#8C8782}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Histogram</h1><p></p></div>
+<div class="body"><svg viewBox="0 0 940 580" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Lato', 'Open Sans', sans-serif"><rect x="92" y="58" width="812" height="430" fill="#EBE8E3" rx="14"/><line x1="92.0" y1="488.0" x2="904.0" y2="488.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="488.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">0</text><line x1="92.0" y1="402.0" x2="904.0" y2="402.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="402.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">10</text><line x1="92.0" y1="316.0" x2="904.0" y2="316.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="316.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">20</text><line x1="92.0" y1="230.0" x2="904.0" y2="230.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="230.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">30</text><line x1="92.0" y1="144.0" x2="904.0" y2="144.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="144.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">40</text><line x1="92.0" y1="58.0" x2="904.0" y2="58.0" stroke="#DEDBD6" stroke-width="1"/><text x="82.0" y="58.0" text-anchor="end" dominant-baseline="middle" font-size="15" fill="#8C8782">50</text><line x1="92.0" y1="58.0" x2="92.0" y2="488.0" stroke="#8C8782" stroke-width="1.4"/><text x="34.0" y="273.0" transform="rotate(-90 34.0 273.0)" text-anchor="middle" font-size="18" font-weight="600" fill="#3E3833">Number of workers</text><rect x="96.5" y="470.8" width="81.2" height="17.2" rx="5" fill="#F6D1C8"/><text x="137.1" y="463.8" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">2</text><rect x="186.7" y="453.6" width="81.2" height="34.4" rx="5" fill="#DDEDF4"/><text x="227.3" y="446.6" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">4</text><rect x="277.0" y="402.0" width="81.2" height="86.0" rx="5" fill="#BFD0BE"/><text x="317.6" y="395.0" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">10</text><rect x="367.2" y="290.2" width="81.2" height="197.8" rx="5" fill="#E8E0D6"/><text x="407.8" y="283.2" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">23</text><rect x="457.4" y="264.4" width="81.2" height="223.6" rx="5" fill="#F6D1C8"/><text x="498.0" y="257.4" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">26</text><rect x="547.6" y="161.2" width="81.2" height="326.8" rx="5" fill="#DDEDF4"/><text x="588.2" y="154.2" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">38</text><rect x="637.8" y="255.8" width="81.2" height="232.2" rx="5" fill="#BFD0BE"/><text x="678.4" y="248.8" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">27</text><rect x="728.1" y="376.2" width="81.2" height="111.8" rx="5" fill="#E8E0D6"/><text x="768.7" y="369.2" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">13</text><rect x="818.3" y="427.8" width="81.2" height="60.2" rx="5" fill="#F6D1C8"/><text x="858.9" y="420.8" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3E3833">7</text><text x="92.0" y="510.0" text-anchor="start" font-size="14" fill="#8C8782">53.7</text><text x="182.2" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">58.5</text><text x="272.4" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">63.3</text><text x="362.7" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">68.1</text><text x="452.9" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">72.9</text><text x="543.1" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">77.8</text><text x="633.3" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">82.6</text><text x="723.6" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">87.4</text><text x="813.8" y="510.0" text-anchor="middle" font-size="14" fill="#8C8782">92.2</text><text x="904.0" y="510.0" text-anchor="end" font-size="14" fill="#8C8782">97</text><line x1="92.0" y1="488.0" x2="904.0" y2="488.0" stroke="#8C8782" stroke-width="1.4"/><text x="498.0" y="568.0" text-anchor="middle" font-size="18" font-weight="600" fill="#3E3833">Test score</text></svg></div>
+<div class="foot"><p class="cap">Figure. Distribution of test_score across 9 bins. Bar labels are counts.</p><p class="note">Data: s7_data_anova1.csv. n = 150. 9 bins of width 4.81. Palette: peach-mist. Font: magazine.</p></div>
+</div></body></html>

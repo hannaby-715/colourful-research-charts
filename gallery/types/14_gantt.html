@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gantt chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:40px 22px;background:#F3EEE6;color:#2E1F3A;
+     font-family:'Inter', 'Roboto', sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.figure{max-width:1000px;margin:0 auto;background:#FFFFFF;border-radius:20px;
+        box-shadow:0 14px 34px rgba(43,37,33,.10);overflow:hidden}
+.head{padding:26px 34px 0}
+.head h1{margin:0 0 6px;font-family:'Zilla Slab', Georgia, serif;font-size:29px;font-weight:700;
+        letter-spacing:-.02em;color:#2E1F3A}
+.head p{margin:0;font-size:15.5px;color:#817682}
+.body{padding:18px 34px 26px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 10px;font-size:14px;color:#817682}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.foot{padding:18px 34px 24px;background:#D4B896}
+.foot .cap{margin:0 0 6px;font-size:14.5px;font-weight:600;color:#2E1F3A}
+.foot .note{margin:0;font-size:12.5px;color:#817682}
+</style></head>
+<body><div class="figure">
+<div class="head"><h1>Gantt chart</h1><p></p></div>
+<div class="body"><div class="legend"><span><i style="background:#3E2564"></i>Prep</span><span><i style="background:#7B5E8E"></i>Field</span><span><i style="background:#B898A0"></i>Analysis</span></div><svg viewBox="0 0 960 458" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', 'Roboto', sans-serif"><rect x="214" y="54" width="610" height="316" fill="#E5E0DA" rx="14"/><text x="198.0" y="86.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Recruit participants</text><rect x="214.0" y="74.0" width="86.0" height="25.0" rx="7" fill="#3E2564"/><text x="309.0" y="86.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">12d</text><text x="198.0" y="134.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Build the survey</text><rect x="245.3" y="122.0" width="86.0" height="25.0" rx="7" fill="#3E2564"/><text x="340.3" y="134.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">12d</text><text x="198.0" y="182.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Run the pilot</text><rect x="354.8" y="170.0" width="54.7" height="25.0" rx="7" fill="#7B5E8E"/><text x="418.5" y="182.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">8d</text><text x="198.0" y="230.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Collect responses</text><rect x="417.3" y="218.0" width="187.7" height="25.0" rx="7" fill="#7B5E8E"/><text x="614.0" y="230.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">25d</text><text x="198.0" y="278.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Clean the data</text><rect x="628.5" y="266.0" width="70.4" height="25.0" rx="7" fill="#B898A0"/><text x="707.9" y="278.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">10d</text><text x="198.0" y="326.0" text-anchor="end" dominant-baseline="middle" font-size="16.5" fill="#2E1F3A">Write it up</text><rect x="706.7" y="314.0" width="117.3" height="25.0" rx="7" fill="#B898A0"/><text x="833.0" y="326.0" dominant-baseline="middle" font-size="15" font-weight="700" fill="#2E1F3A">16d</text><line x1="292.2" y1="62.0" x2="292.2" y2="362.0" stroke="#D7D1CE" stroke-width="1"/><text x="292.2" y="388.0" text-anchor="middle" font-size="15.5" fill="#817682">11 Oct</text><line x1="448.6" y1="62.0" x2="448.6" y2="362.0" stroke="#D7D1CE" stroke-width="1"/><text x="448.6" y="388.0" text-anchor="middle" font-size="15.5" fill="#817682">31 Oct</text><line x1="605.0" y1="62.0" x2="605.0" y2="362.0" stroke="#D7D1CE" stroke-width="1"/><text x="605.0" y="388.0" text-anchor="middle" font-size="15.5" fill="#817682">20 Nov</text><line x1="761.4" y1="62.0" x2="761.4" y2="362.0" stroke="#D7D1CE" stroke-width="1"/><text x="761.4" y="388.0" text-anchor="middle" font-size="15.5" fill="#817682">10 Dec</text><line x1="214.0" y1="368.0" x2="824.0" y2="368.0" stroke="#817682" stroke-width="1.4"/><text x="519.0" y="420.0" text-anchor="middle" font-size="18" font-weight="600" fill="#2E1F3A">2026</text><text x="28.0" y="212.0" transform="rotate(-90 28.0 212.0)" text-anchor="middle" font-size="18" font-weight="600" fill="#2E1F3A">Task</text></svg></div>
+<div class="foot"><p class="cap">Figure. Gantt chart of 6 tasks by phase. Bar length is the duration.</p><p class="note">Data: gantt.csv. 6 tasks. Palette: twilight-gold. Font: modern-editorial.</p></div>
+</div></body></html>
